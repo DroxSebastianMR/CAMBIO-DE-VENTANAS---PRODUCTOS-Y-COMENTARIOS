@@ -1,12 +1,17 @@
-# React + Vite
+# Proyecto de Productos y Comentarios en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de una página de productos en React, donde los usuarios pueden dar "Me Gusta" a los productos y dejar comentarios sobre ellos. Los comentarios incluyen el nombre de la persona que comenta, y todos los datos se almacenan en un archivo `JSON`. 
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto está dividido en las siguientes funcionalidades:
 
-## Expanding the ESLint configuration
+- **Página de Productos**: Muestra una lista de productos con su imagen, nombre, descripción y un botón para dar "Me Gusta".
+- **Formulario de Comentarios**: Los usuarios pueden dejar un comentario sobre un producto, junto con su nombre.
+- **Navegación**: Se proporciona un sistema de navegación minimalista entre las páginas de productos y comentarios.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías Utilizadas
+
+- **React**: Librería de JavaScript para construir la interfaz de usuario.
+- **React Router**: Para la navegación entre páginas.
+
